@@ -32,8 +32,7 @@ The vector feeds a 4×4 **interaction matrix A** where off-diagonal terms encode
 
 On top of λ₁, the platform classifies each jurisdiction by **institutional archetype** using cosine similarity to idealized [D,F,V,L] profiles, centered on the 0.5 neutral baseline so shape and magnitude are independent. A country scoring (0.9, 0.9, 0.9, 0.9) and one scoring (0.3, 0.3, 0.3, 0.3) point in opposite structural directions — Euclidean distance misses this; cosine similarity catches it.
 
-## Output schema
-## Public preview output
+## Preview of Public Output schema
 
 Available at `/api/public/signal?jurisdiction={key}` — no auth required:
 
@@ -46,39 +45,25 @@ Available at `/api/public/signal?jurisdiction={key}` — no auth required:
   "eigenvalue": {
     "regime":   "Entrenched Resonance",
     "lambda1":  0.883,
-    "institutional_archetype": {
-      "archetype":         "Expropriation Risk",
-      "cosine_similarity": 0.812,
-      "confidence":        "medium"
-    },
-    "full_spectrum": {
-      "spectral_radius":   0.883,
-      "has_complex_modes": false,
-      "near_unity_count":  1,
-      "dynamics_note":     "Monotone dynamics — frictions converge or diverge without oscillation"
     },
     "binding_constraint": "V"
-    "regime": "Transitional Coupling",
-    "lambda1": 0.680618,
-    "binding_constraint": "D",
     "hydra_risk": false
   },
-  "signal": { "alpha": 42.1, "f": 0.38, "classification": "MONITOR — balanced risk/reward" },
-  "wacc":   { "wacc": 0.1432, "roic_wacc_ratio": 0.71 },
-  "icv": {
-    "friction_tax": 0.31,
-    "hazard_rate":  0.371564,
-    "interpretation": "Severe institutional discount"
-  }
   "signal":  { "classification": "CAUTION — strong signal but value-destroying at current ROIC" },
   "phase":   { "classification": "IMPROVE" },
   "icv":     { "interpretation": "Material friction" }
 }
 ```
+The free public payload provides three important macro-strategic insights: the speed of system degradation, the immediate ceiling on their operations, and the vulnerability type—even without the full geometric diagnostic.
+
+Here is the exact tactical utility that those three free metrics deliver:
+1. lambda1 (The Precise Speedometer) provides: A high-resolution measure of systemic friction saturation. The Actionable Insight: Because it is expressed as a raw float rather than a rounded category, a quantitative risk team can track the first derivative (velocity) of this number over consecutive quarters. If lambda1 jumps from 0.61 to 0.77 in six months, the system is accelerating toward criticality at a dangerous pace, which should trigger an internal review of capital allocations before the threshold is even crossed.
+2. Regime/"Transitional Coupling" (The Systemic Buffer Warning) provides: The boundary state of a country's institutional network. The Actionable Insight: This tells the user that the country is no longer in a "Decoupled" state where problems can be dealt with one at a time. It signals that cross-contamination is occurring. If a regulatory crisis hits, it will likely spill over into a currency or legal crisis, which means you cannot treat local business units as isolated silos; a shock to one part of their local operation will bleed into the others.
+3. binding_constraint (The Immediate Bottleneck) provides: The institutional component currently throttling the system's stability. The Actionable Insight: It functions like a classic engineering bottleneck analysis. If the constraint is D (Disclosure/Transparency), the user knows that opacity is the primary vector driving the current friction rise. They can immediately instruct local teams to double-check joint-venture financial reporting, assume official metrics are lagging or compromised, and increase budgets for local, ground-level intelligence gathering.
 
 ---
 
-## Jurisdictions covered
+## Jurisdictions currently covered
 
 **26 jurisdictions** across four regions:
 
