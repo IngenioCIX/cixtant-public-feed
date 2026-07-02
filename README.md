@@ -6,6 +6,8 @@ Cixtant implements the **Signal Economies Framework** (Gil, 2025) — a spectral
 
 ****Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
 
+---
+
 ## Core Methodology & Schema
 The data feed translates macro-economic risk dimensions into a mathematically derived friction score. The payload pushed on-chain includes:
 
@@ -28,6 +30,8 @@ The vector feeds a 4×4 **interaction matrix A** where off-diagonal terms encode
 | ≥ 1.0 | Systemic Divergence | Frictions amplify — instability risk |
 
 On top of λ₁, the platform classifies each jurisdiction by **institutional archetype** using cosine similarity to the IFD [D,F,V,L] profiles, centered on a 0.5 neutral baseline so shape and magnitude are independent. 
+
+---
 
 ## Preview of Public Output schema
 
