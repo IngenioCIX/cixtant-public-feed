@@ -71,7 +71,6 @@ Here is the exact tactical utility that those three free metrics deliver:
 - **Asia-Pacific (Emerging)** — India, China, Indonesia, Malaysia, Thailand, Philippines, Vietnam
 - **Asia-Pacific (Frontier)** — Bangladesh, Pakistan, Sri Lanka, Cambodia
 
-We intend to expand offerings as soon as possible.
 ---
 
 ## Architecture
