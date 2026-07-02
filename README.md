@@ -51,7 +51,6 @@ Available at `/api/public/signal?jurisdiction={key}` — no auth required:
   "signal":  { "classification": "CAUTION — strong signal but value-destroying at current ROIC" },
   "phase":   { "classification": "IMPROVE" },
   "icv":     { "interpretation": "Material friction" }
-}
 ```
 The free public payload provides three important macro-strategic insights: the speed of system degradation, the immediate ceiling on their operations, and the vulnerability type—even without the full geometric diagnostic.
 
