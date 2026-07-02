@@ -108,8 +108,8 @@ TI CPI + WJP fallbacks ─┘
 
 ## API endpoints
 
-| Endpoint | Description |
-|----------|------|-------------|
+| Endpoint | Auth | Description |
+|----------|--------|---------|
 | `GET /api/public/signal?jurisdiction={key}` | None | Public preview — regime + classification |
 | `GET /api/public/jurisdictions` | None | List all supported jurisdictions |
 | `GET /api/signal?jurisdiction={key}` | Bearer token | Full premium assessment |
