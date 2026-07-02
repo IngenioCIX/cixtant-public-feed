@@ -6,7 +6,7 @@ Network & Engine Status
 * **Current Core Engine:** Live / Operational (Asymmetric Matrix Complexity Math)
 * **Target Public Deployment:** Solana Mainnet (via Anchor Framework)
 * **Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
-* **Development Sprint Horizon:** August 3, 2026 (Milestones 1 & 2 Execution)
+* **Current Development Sprint Horizon:** August 3, 2026 
 
 ---
 
@@ -151,7 +151,7 @@ Could the on-chain feed run on another low-fee chain? Technically, yes — the a
 
 ---
 
-## Repository Roadmap (Instagrant Milestone — Data Pipeline Hardening)
+## Repository Roadmap (Instagrant Milestones 1 & 2 — Data Pipeline Hardening)
 - [ ] Fix `population` field (add SP.POP.TOTL to fetch layer)
 - [ ] Fix WGI endpoint routing (source=3, mrv=10, most-recent-non-null-year)
 - [x] TI CPI + WJP fallback sources integrated for governance gaps
