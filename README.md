@@ -2,8 +2,6 @@
 
 Cixtant Public is a free, open-access, on-chain oracle data feed we are aiming for inclusion on Solana that publishes jurisdiction-level sovereign friction scores to protect capital deployment in underserved environments.
 
-Cixtant implements the **Signal Economies Framework** (Gil, 2025) — a spectral theory of institutional friction that maps sovereign governance data into a four-dimensional state vector and computes a dominant eigenvalue that predicts capital formation capacity, investment risk, and policy leverage.
-
 ****Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
 
 ---
@@ -74,6 +72,7 @@ Here is the exact tactical utility that those three free metrics deliver:
 - **Asia-Pacific (Emerging)** — India, China, Indonesia, Malaysia, Thailand, Philippines, Vietnam
 - **Asia-Pacific (Frontier)** — Bangladesh, Pakistan, Sri Lanka, Cambodia
 
+We intend to expand offerings as soon as possible.
 ---
 
 ## Architecture
@@ -128,8 +127,7 @@ cp .env.example .env.local
 ---
 
 ## Methodology & Academic Sourcing
-The calculation engines driving the on-chain data schema are based on the Institutional Friction Decomposition (IFD) framework. 
-For the underlying financial modeling, asset pricing structures, and mathematical proofs regarding how institutional uncertainty shifts discount rates, please see the foundational literature:
+Cixtant implements the **Signal Economies Framework**. The calculation engines driving the on-chain data schema are based on the Institutional Friction Decomposition (IFD) framework, which includes a spectral theory that maps sovereign governance data into a four-dimensional state vector and computes the dominant eigenvalue predicting capital formation capacity, investment risk, and policy leverage. For the underlying financial modeling, asset pricing structures, and mathematical proofs regarding how institutional uncertainty shifts discount rates, please see the foundational literature:
 * **Paper Title:** *Institutional Friction Decomposition of Valuation Discounts: A Structured Diagnostic Framework for Identifying Institutional Sources of Persistent Discount Rate Distortions*
 * **Author:** Aidah Gil (March 2026)
 * **Access:** Available for review on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6427278)
