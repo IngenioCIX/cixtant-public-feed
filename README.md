@@ -4,7 +4,7 @@ Cixtant Public is a free, open-access, on-chain oracle data feed on Solana that 
 
 Cixtant implements the **Signal Economies Framework** (Gil, 2025) — a spectral theory of institutional friction that maps sovereign governance data into a four-dimensional state vector and computes a dominant eigenvalue that predicts capital formation capacity, investment risk, and policy leverage.
 
-****Public API preview:** `[https://cixtant.vercel.app/api/public/signal?jurisdiction=rwanda](https://cixtant.com/api/public/signal?jurisdiction=rwanda)`
+****Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
 
 ## Core Methodology & Schema
 The data feed translates macro-economic risk dimensions into a mathematically derived friction score. The payload pushed on-chain includes:
