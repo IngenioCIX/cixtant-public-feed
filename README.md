@@ -1,6 +1,6 @@
 # Cixtant Public: Sovereign Friction Data Feed
 
-Cixtant Public is a free, open-access, on-chain oracle data feed on Solana that publishes jurisdiction-level sovereign friction scores to protect capital deployment in underserved environments.
+Cixtant Public is a free, open-access, on-chain oracle data feed we are aiming for inclusion on Solana that publishes jurisdiction-level sovereign friction scores to protect capital deployment in underserved environments.
 
 Cixtant implements the **Signal Economies Framework** (Gil, 2025) — a spectral theory of institutional friction that maps sovereign governance data into a four-dimensional state vector and computes a dominant eigenvalue that predicts capital formation capacity, investment risk, and policy leverage.
 
@@ -8,9 +8,6 @@ Cixtant implements the **Signal Economies Framework** (Gil, 2025) — a spectral
 
 ## Core Methodology & Schema
 The data feed translates macro-economic risk dimensions into a mathematically derived friction score. The payload pushed on-chain includes:
-* **Eigenvalue (λ₁):** The core institutional friction score.
-* **Friction-Adjusted WACC:** Adjusted cost of capital metrics based on localized risk.
-* **Risk Dimensions:** Segmented scores tracking Legal/Regulatory, Fiduciary, Value Appropriability, and Disclosure constraints.
 
 * Every jurisdiction gets an **IFD State Vector** [D, F, V, L]:
 
@@ -30,7 +27,7 @@ The vector feeds a 4×4 **interaction matrix A** where off-diagonal terms encode
 | 0.8 – 1.0 | Entrenched Resonance | Frictions self-reinforce — reform is hard |
 | ≥ 1.0 | Systemic Divergence | Frictions amplify — instability risk |
 
-On top of λ₁, the platform classifies each jurisdiction by **institutional archetype** using cosine similarity to idealized [D,F,V,L] profiles, centered on the 0.5 neutral baseline so shape and magnitude are independent. A country scoring (0.9, 0.9, 0.9, 0.9) and one scoring (0.3, 0.3, 0.3, 0.3) point in opposite structural directions — Euclidean distance misses this; cosine similarity catches it.
+On top of λ₁, the platform classifies each jurisdiction by **institutional archetype** using cosine similarity to the IFD [D,F,V,L] profiles, centered on a 0.5 neutral baseline so shape and magnitude are independent. 
 
 ## Preview of Public Output schema
 
