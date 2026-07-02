@@ -1,6 +1,12 @@
 # Cixtant Public: Sovereign Friction Data Feed
 
-Cixtant Public is a free, open-access, on-chain oracle data feed we are aiming for inclusion on Solana that publishes jurisdiction-level sovereign friction scores to protect capital deployment in underserved environments.
+Cixtant Public is a free, open-access, on-chain oracle data feed that publishes jurisdiction-level sovereign friction scores to protect capital deployment in underserved environments. Our goal is to fully launch on Solana.
+
+Network & Engine Status
+* **Current Core Engine:** Live / Operational (Asymmetric Matrix Complexity Math)
+* **Target Public Deployment:** Solana Mainnet (via Anchor Framework)
+* **Active Alpha API Endpoint:** `https://cixtant.com`
+* **Development Sprint Horizon:** August 3, 2026 (Milestones 1 & 2 Execution)
 
 ****Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
 
@@ -158,4 +164,6 @@ Could the on-chain feed run on another low-fee chain? Technically, yes — the a
 ## License
 
 The on-chain program, SDK, and API interface are open source (MIT). The Signal Economies Framework's calibrated scoring engine (archetype vectors, interaction matrix weights) is proprietary.
-Ingenio CIX retains all rights to the underlying methodology.
+Ingenio CIX retains all rights to the underlying methodology. 
+
+Please visit 'https://ingeniocix.com/` for more information.
