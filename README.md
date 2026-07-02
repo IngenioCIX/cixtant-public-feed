@@ -5,10 +5,8 @@ Cixtant Public is a free, open-access, on-chain oracle data feed that publishes 
 Network & Engine Status
 * **Current Core Engine:** Live / Operational (Asymmetric Matrix Complexity Math)
 * **Target Public Deployment:** Solana Mainnet (via Anchor Framework)
-* **Active Alpha API Endpoint:** `https://cixtant.com`
+* **Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
 * **Development Sprint Horizon:** August 3, 2026 (Milestones 1 & 2 Execution)
-
-****Public API preview:** `https://cixtant.com/api/public/signal?jurisdiction=rwanda`
 
 ---
 
