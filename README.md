@@ -39,22 +39,19 @@ On top of λ₁, the platform classifies each jurisdiction by **institutional ar
 
 Available at `/api/public/signal?jurisdiction={key}` — no auth required:
 
-```json
-{
-  "jurisdiction": { "name": "...", "iso2": "RW", "region": "Sub-Saharan Africa" },
-  "ifd_state":    { "D": 0.52, "F": 0.48, "V": 0.41, "L": 0.50 },
-  "_tier": "public",
+```{
   "jurisdiction": { "name": "Republic of Rwanda", "iso2": "RW", "region": "Sub-Saharan Africa" },
+  "_tier": "public",
   "eigenvalue": {
-    "regime":   "Entrenched Resonance",
-    "lambda1":  0.883,
-    },
-    "binding_constraint": "V"
+    "regime": "Entrenched Resonance",
+    "lambda1": 0.883,
+    "binding_constraint": "V",
     "hydra_risk": false
   },
-  "signal":  { "classification": "CAUTION — strong signal but value-destroying at current ROIC" },
-  "phase":   { "classification": "IMPROVE" },
-  "icv":     { "interpretation": "Material friction" }
+  "signal": { "classification": "CAUTION — strong signal but value-destroying at current ROIC" },
+  "phase": { "classification": "IMPROVE" },
+  "icv": { "interpretation": "Material friction" }
+}
 ```
 The free public payload provides three important macro-strategic insights: the speed of system degradation, the immediate ceiling on their operations, and the vulnerability type—even without the full geometric diagnostic.
 
@@ -97,7 +94,7 @@ TI CPI + WJP fallbacks ─┘
 
 | Endpoint | Auth | Description |
 |----------|--------|---------|
-| `GET /api/public/signal?jurisdiction={key}` | None | Public preview — regime + classification |
+| Public preview — regime + classification |
 | `GET /api/public/jurisdictions` | None | List all supported jurisdictions |
 | `GET /api/signal?jurisdiction={key}` | Bearer token | Full premium assessment |
 | `GET /api/signal/batch?jurisdictions=rwanda,brazil` | Bearer token | Multi-jurisdiction |
